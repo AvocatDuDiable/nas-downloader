@@ -2,6 +2,8 @@
 
 Interface web pour envoyer des torrents sur un NAS Synology via AllDebrid.
 
+![Aperçu](preview.png)
+
 Le torrent est uploadé sur AllDebrid qui le débrider et renvoie un lien direct, puis ce lien est transmis à Download Station sur le NAS.
 
 ## Stack
