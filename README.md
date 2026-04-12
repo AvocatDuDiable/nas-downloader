@@ -1,10 +1,14 @@
 # NAS Downloader
 
-Interface web pour envoyer des torrents sur un NAS Synology via AllDebrid.
+Application web légère et simple faisant office de passerelle entre un fichier torrent, le service AllDebrid et l'application Download Station d'un NAS Synology. 
 
 ![Aperçu](preview.png)
 
-Le torrent est uploadé sur AllDebrid qui le débrider et renvoie un lien direct, puis ce lien est transmis à Download Station sur le NAS.
+## Fonctionnalités 
+- Voir l'état des téléchargements sur le NAS
+- Supprimer une tâche terminée
+- Supprimer toutes les tâches terminées
+- Ajouter un téléchargement depuis un torrent en passant le service Alldebrid pour ajouter le torrent en Magnet sur le service et en récupérant le lien débridé après. 
 
 ## Stack
 
