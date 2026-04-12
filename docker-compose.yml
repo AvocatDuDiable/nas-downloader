@@ -1,0 +1,9 @@
+services:
+  nas-downloader:
+    build: .
+    container_name: nas-downloader
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./config:/app/config:ro
+    restart: unless-stopped
