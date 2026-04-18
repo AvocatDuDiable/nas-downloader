@@ -94,7 +94,7 @@ function renderTasks(list) {
         return `
         <tr data-id="${esc(task.id)}">
             <td><div class="task-name" title="${esc(task.title)}">${esc(task.title)}</div></td>
-            <td><span class="task-size">${formatBytes(task.size)}</span></td>
+            <td class="col-size"><span class="task-size">${formatBytes(task.size)}</span></td>
             <td><span class="status-badge ${st.cls}">${st.label}</span></td>
             <td class="col-speed-td"><span class="speed">${task.status === 'downloading' ? formatSpeed(speed) : '–'}</span></td>
             <td>
